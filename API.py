@@ -21,4 +21,4 @@ def getNameAndNumber():
     return str("Your client's name is "+ name + " and number is " + number)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8000)
+    app.run(debug=False, host=0.0.0.0)
